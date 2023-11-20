@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_green">      #FEFAE0</color>
+    <color name="light_green">      #606C38</color>
+    <color name="low_light_green">  #EE606C38</color>
+    <color name="green">            #3e5425</color>
+    <color name="dark_green">       #283618</color>
+    <color name="low_dark_green">   #EE283618</color>
+    <color name="black_green">      #101609</color>
+    <color name="black_BG">         #121A0A</color>
+    <color name="low_black">        #99101609</color>
+    <color name="so_low_black">     #22101609</color>
+    <color name="light_orange">     #DDA15E</color>
+    <color name="dark_orange">      #F06C25</color>
+    <color name="test">             #E63946</color>
+    <color name="scs">              #4E9400</color>
+
+    <color name="white_hint">       #99FEFAE0</color>
+    <color name="black_hint">       #99101609</color>
+    <color name="dark_orange_hint"> #99F06C25</color>
+</resources>

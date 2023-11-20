@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/managing"
+            android:icon="@drawable/ic_editing"
+            android:title="Editing" />
+    </group>
+
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/formulas"
+            android:icon="@drawable/ic_formulas"
+            android:title="Formulas">
+            <menu>
+                <item
+                    android:id="@+id/subject1"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_subject"
+                    android:title="subject 1" />
+                <item
+                    android:id="@+id/subject2"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_subject"
+                    android:title="subject 2" />
+            </menu>
+        </item>
+    </group>
+
+
+    <item
+        android:id="@+id/login"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@drawable/ic_login"
+        android:title="login" />
+
+</menu>

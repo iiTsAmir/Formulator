@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Formulator" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/light_green</item> <!-- action bar & buttons -->
+        <item name="colorPrimaryVariant">@color/test</item> <!--  -->
+        <item name="colorOnPrimary">@color/white_green</item> <!-- button txt -->
+
+        <item name="colorSecondary">@color/light_green</item> <!-- select txt box -->
+        <item name="colorSecondaryVariant">@color/test</item> <!--  -->
+        <item name="colorOnSecondary">@color/test</item> <!--  -->
+
+        <item name="android:statusBarColor">@color/dark_green</item> <!-- Status bar -->
+
+        <item name="android:textColor">@color/white_green</item>
+        <item name="android:colorBackground">@color/black_BG</item>
+        <item name="android:navigationBarColor">@color/dark_green</item>
+        <item name="android:listDivider">@color/low_black</item>
+        <item name="subheaderTextAppearance">@style/subheaderTextAppearance</item>
+
+        <item name="android:textColorHint">@color/white_hint</item>
+
+        <item name="cookiePadding">0dp</item>
+        <item name="cookieTitleSize">27dp</item>
+        <item name="cookieMessageSize">16sp</item>
+
+        <item name="colorSurface">@color/white_green</item>
+        <item name="colorOnSurface">@color/white_green</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">15sp</item>
+        <!--<item name="fontFamily"></item>-->
+    </style>
+
+    <style name="subheaderTextAppearance" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black_green</item>
+        <!--<item name="fontFamily"></item>-->
+    </style>
+
+</resources>
