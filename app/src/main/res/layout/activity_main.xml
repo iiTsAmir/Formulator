@@ -38,6 +38,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:background="@drawable/green_gradiant"
+            app:headerLayout="@layout/header"
             app:itemHorizontalPadding="10dp"
             app:itemIconTint="@drawable/nav_co"
             app:itemShapeFillColor="@color/so_low_black"

@@ -13,11 +13,14 @@
 
         <item name="android:textColor">@color/black_green</item>
         <item name="android:colorBackground">@color/white_green</item>
-        <item name="android:navigationBarColor">@color/dark_green</item>
+        <item name="android:navigationBarColor">@color/black_green</item>
         <item name="android:listDivider">@color/low_black</item>
         <item name="subheaderTextAppearance">@style/subheaderTextAppearance</item>
+        <item name="android:textCursorDrawable">@null</item>
 
         <item name="android:textColorHint">@color/black_hint</item>
+
+        <item name="color">@color/dark_green</item>
 
         <item name="cookiePadding">0dp</item>
         <item name="cookieTitleSize">27dp</item>

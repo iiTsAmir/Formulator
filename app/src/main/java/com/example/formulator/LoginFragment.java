@@ -27,6 +27,9 @@ public class LoginFragment extends Fragment {
         password = root.findViewById(R.id.password);
         forgot = root.findViewById(R.id.forgotTxtView);
 
+
+
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,7 +50,7 @@ public class LoginFragment extends Fragment {
                     success();
 
                 } else
-                    error("username or password is wrong!");
+                    error("username or password wrong!");
 
             }
         });

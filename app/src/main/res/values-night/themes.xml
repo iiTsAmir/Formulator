@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Formulator" parent="Theme.MaterialComponents.NoActionBar">
-        <item name="colorPrimary">@color/light_green</item> <!-- action bar & buttons -->
+        <item name="colorPrimary">@color/green</item> <!-- action bar & buttons -->
         <item name="colorPrimaryVariant">@color/test</item> <!--  -->
         <item name="colorOnPrimary">@color/white_green</item> <!-- button txt -->
 
@@ -13,11 +13,14 @@
 
         <item name="android:textColor">@color/white_green</item>
         <item name="android:colorBackground">@color/black_BG</item>
-        <item name="android:navigationBarColor">@color/dark_green</item>
+        <item name="android:navigationBarColor">@color/black_green</item>
         <item name="android:listDivider">@color/low_black</item>
         <item name="subheaderTextAppearance">@style/subheaderTextAppearance</item>
+        <item name="android:textCursorDrawable">@null</item>
 
         <item name="android:textColorHint">@color/white_hint</item>
+
+        <item name="color">@color/light_green</item>
 
         <item name="cookiePadding">0dp</item>
         <item name="cookieTitleSize">27dp</item>

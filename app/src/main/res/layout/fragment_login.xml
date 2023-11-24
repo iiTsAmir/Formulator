@@ -4,33 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clipToPadding="false"
     tools:context=".LoginFragment"
-    tools:ignore="RtlHardcoded,HardCodedText">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginRight="248dp"
-        android:background="@drawable/left_box_shadow"
-
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:ignore="RtlHardcoded">
 
     <TextView
-        android:id="@+id/LoginTxtView"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginRight="250dp"
+        android:id="@+id/loginLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
-        android:background="@drawable/left_box"
-        android:elevation="5dp"
-        android:gravity="right"
-        android:paddingHorizontal="20dp"
-        android:paddingVertical="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/top_box"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="6dp"
         android:text="L o g i n"
         android:textColor="@color/white_green"
         android:textSize="30sp"
@@ -42,19 +29,27 @@
 
     </TextView>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/shadow_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layoutUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:background="?android:colorBackground"
         android:textColorHint="?android:textColorHint"
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginTxtView">
+        app:layout_constraintTop_toBottomOf="@+id/loginLabel">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/username"
@@ -113,7 +108,7 @@
         android:gravity="center"
         android:padding="0dp"
         android:text="Login"
-        android:textColor="?android:colorBackground"
+        android:textColor="@color/white_green"
         android:textSize="20sp"
 
         app:layout_constraintLeft_toLeftOf="parent"
